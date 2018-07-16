@@ -37,13 +37,53 @@ title: Contact
         <div class="row">
             <div class="col-sm-12 col-md-6 col-lg-6">
                 <div class="article4">
+                    <h5>e-mail us</h5>
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Name</label>
+                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="John Smith">
+                        </div>
 
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Email address</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Referentie</label>
+                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Message</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                    </form>
+                    <button>submit </button>
                 </div>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-6">
                     <div class="article4">
-    
+                        <h5>Adres</h5>
+                            <p>TravelBird B.V.</p>
+                            <p>Keizersgracht 277</p>
+                            <p>1016 ED Amsterdam</p>
+                            <p>Nederland</p>
+                    
+                    <div class="map" id="map">
+                            <script>
+                               function myMap() {
+                               var mapOptions = {
+                               center: new google.maps.LatLng(51.05434220000001,3.717424299999948),
+                               zoom: 13,
+                               mapTypeId: google.maps.MapTypeId.ROADMAP
+                               }
+                               var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+                               }
+                           </script>
+                               <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAwvjP0Amb3bpsV0XXl5bxGjS4M12Mo7Ks&callback=myMap"></script>
                     </div>
+                </div>
             </div>
         </div>
     </div>
