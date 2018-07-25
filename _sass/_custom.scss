@@ -70,6 +70,7 @@ h3{
     color: #06062B;
     font-size: 70pt;
     font-weight: bold;
+    text-align: center;
 
 }
 
@@ -82,8 +83,14 @@ h5{
     font-size: 30pt;
     font-weight: bold;
     color: #06062B;
-    text-align: center;
 }
+
+.float-right{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .winkel{
     margin-right: 150px ;
     float: right;
@@ -136,7 +143,6 @@ h5{
     background-color: #FCC304;
     color: #ffffff;
     position: relative;
-    display: block;
     line-height: 30px;
 }
 
@@ -146,8 +152,8 @@ h5{
 
 
 .img-circle{
-    height: 500px;
-    width: 500px;
+    height: 300px;
+    width: 300px;
     border-radius: 50%;
 }
 
