@@ -13,6 +13,9 @@ body{
     max-height: 500px;
     margin-top: 20px;
 }
+li{
+    
+}
 
 
 p{
@@ -27,8 +30,7 @@ a{
 }
 
 hr{
-    height: 3px;
-    background-color: #FCC304;
+ background-color: #06062B;
 }
 .bedanking{
     margin-bottom: 40px;
@@ -65,7 +67,7 @@ h2{
 }
 
 h3{
-    color: #000000;
+    color: #06062B;
     font-size: 70pt;
     font-weight: bold;
 
@@ -79,6 +81,8 @@ h4{
 h5{
     font-size: 30pt;
     font-weight: bold;
+    color: #06062B;
+    text-align: center;
 }
 .winkel{
     margin-right: 150px ;
@@ -98,7 +102,7 @@ h5{
     margin-top: 20px;
     padding-bottom: 20px;
     padding: 30px;
-    background-color: #6900ff;
+    background-color: #06062B;
     color: #ffffff;
     position: relative;
     line-height: 30px;
@@ -108,7 +112,7 @@ h5{
     margin-top: 20px;
     padding-bottom: 20px;
     border-style: slid;
-    border-color: #6900ff;
+    border-color: #06062B;
     color: #000000;
     text-align: center;
     position: relative;
@@ -119,16 +123,48 @@ h5{
     margin-top: 20px;
     padding-bottom: 20px;
     border-style: slid;
-    border-color: #6900ff;
+    border-color: #06062B;
     color: #000000;
     position: relative;
 
 }
 
-.img-circle{
-    border-radius: 50%;
-    display: inline-block;
+.article5{
+    margin-top: 20px;
+    padding-bottom: 20px;
+    padding: 30px;
+    background-color: #FCC304;
+    color: #ffffff;
+    position: relative;
+    display: block;
+    line-height: 30px;
+}
 
+.center{
+    align-items: center;
+}
+
+
+.img-circle{
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+}
+
+.circle{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: #FCC304;
+    position: relative;
+    align-content: center;
+    margin: 40px;
+    border: 10px
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
 }
 
 
