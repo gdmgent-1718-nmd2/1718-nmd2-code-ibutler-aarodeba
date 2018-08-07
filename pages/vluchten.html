@@ -10,7 +10,9 @@ title: Vluchten
 <br>
     <div class="row">
         <div class="col-sm-12 col-md-12 col-lg-12">
-            <img class="responsive" src="{{ site.baseurl }}/images/atmosfeer.png">
+            <div class="container">
+                <img class="responsive2" src="{{ site.baseurl }}/images/atmosfeer.png">
+            </div>
         </div>
     </div>
     <div class="row">
@@ -18,8 +20,43 @@ title: Vluchten
             <div class="container">
                 <div class="article3">
                     <h3>Kies u vlucht</h3>
+                    <hr>
                 </div>
             </div>
         </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12">
+            <div class="container">
+                <div class="form-group">
+                    <p>Welke vlucht wilt u?</p>
+                    <select class="form-control" id="exampleFormControlSelect1">
+                        <option>Troposfeer</option>
+                        <option>Stratosfeer</option>
+                        <option>Mesosfeer</option>
+                        <option>Thermosfeer</option>
+                        <option>Exosfeer</option>
+                    </select>
+                </div>
+            </div>
+        </div>   
+    </div>
+    <br>
+    <div class="container">
+        <p>Kies een datum en een tijdstip.</p>
+
+        <div class="row"> 
+            <div class="col-sm-12 col-md-6 col-lg-6">
+                <div class="form-group">
+                    <input id="date" type="date" class="form-control">
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6">
+                <div class="form-group">
+                    <input id="time" type="time" class="form-control">
+                </div>
+            </div>
+        </div>
+        <button class="btn4"><a href="{{ site.baseurl }}/winkelwagen.html">Reserveer nu!</a></button>
     </div>
 </div>
