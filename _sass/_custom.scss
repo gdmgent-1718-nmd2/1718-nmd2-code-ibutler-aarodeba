@@ -25,6 +25,8 @@ body{
 }
 .mid{
     position: absolute;
+    font-size: 50px !important;
+    padding-top: 50px;
     top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -32,9 +34,7 @@ body{
 
 .under{
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 30%;
 }
 
 b{
