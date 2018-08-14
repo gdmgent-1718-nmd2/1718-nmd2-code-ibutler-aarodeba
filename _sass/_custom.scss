@@ -14,9 +14,16 @@ body{
     max-height: 600px;
 }
 
-.carousel-caption{
+.caption{
 
-
+background-color: #FCC304;
+color: #ffffff;
+padding: 5px;
+padding-top: 5px;
+text-align: center;
+align-content: center;
+position: absolute;
+float: right !important;
 }
 .bg{
     width: inherit;
@@ -195,7 +202,6 @@ h3{
     font-size: 70pt;
     font-weight: bold;
     text-align: center;
-
 }
 
 h4{
@@ -207,6 +213,10 @@ h5{
     font-size: 30pt;
     font-weight: bold;
     color: #06062B;
+}
+
+.afbreken{
+    word-wrap: break-word
 }
 
 .float-right{
