@@ -17,14 +17,25 @@ body{
 .caption{
 
 background-color: #FCC304;
-color: #ffffff;
-padding: 5px;
-padding-top: 5px;
-text-align: center;
-align-content: center;
+margin: 50px;
 position: absolute;
-float: right !important;
+border-radius: 50px;
+
+
 }
+
+.caption_text{
+    color: #ffffff;
+    font-style: oblique;
+    align-content: center;
+    margin: 0 auto;
+    display: flex; 
+    justify-content: center;
+    border-style: none;
+    border-radius: 50px;
+    padding: 10px;
+}
+
 .bg{
     width: inherit;
     position: relative;
