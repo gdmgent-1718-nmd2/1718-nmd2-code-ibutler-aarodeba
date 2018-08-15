@@ -74,6 +74,12 @@ b{
     vertical-align: middle;
 }
 
+.b4{
+    font-size: 20pt;
+    color: #06062B;
+    font-weight: 500; 
+}
+
 a{
     text-decoration: none !important;
 }
@@ -325,6 +331,7 @@ h5{
 
 
 
+
 .center{
     align-items: center;
 }
@@ -423,12 +430,14 @@ tr{
   }
 
   .img-thumbnail{
-    border-style: solid;
+    border-style: none;
     border-width: 9px;
     border: #FCC304;
     border-radius: 50%;
   }
-
+  .margin{
+    margin-top: 50px;
+  }
 
   
   .overlay {
