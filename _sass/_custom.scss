@@ -22,10 +22,11 @@ position: absolute;
 border-radius: 50px;
 
 
+
 }
 
 .caption_text{
-    color: #ffffff;
+    color: #06062B;
     font-style: oblique;
     align-content: center;
     margin: 0 auto;
@@ -266,8 +267,6 @@ h5{
 .article3{
     margin-top: 20px;
     padding-bottom: 20px;
-    border-style: slid;
-    border-color: #06062B;
     color: #000000;
     text-align: center;
     position: relative;
@@ -297,10 +296,27 @@ h5{
     background-color: #FCC304;
     color: #ffffff;
     margin-top: 20px;
- 
-
+}
+.article7{
+    background-image: url(bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 610px;
+}
+.article8{
+    color: #ffffff;
+    text-align: center;
+    position: relative;
 
 }
+
+.bg_text{
+    color: #FCC304;
+    font-size: 35pt;
+    padding-top: 200px;
+    align-content: center;
+}
+
 
 
 
