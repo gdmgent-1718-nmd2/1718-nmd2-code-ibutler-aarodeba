@@ -12,6 +12,8 @@ body{
 .carousel-inner{
     margin-top: 20px;
     max-height: 600px;
+    position: relative;
+    overflow: hidden;
 }
 
 .caption{
@@ -21,9 +23,11 @@ margin: 50px;
 position: absolute;
 border-radius: 50px;
 
-
-
 }
+.row{
+    right: 0;
+}
+
 .carousel-indicators .active {
     background-color: #FCC304;
 }

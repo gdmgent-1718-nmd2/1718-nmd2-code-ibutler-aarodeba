@@ -1,12 +1,17 @@
 footer{
-    position: fixed;
+    position: relative;
     left: 0;
     bottom: 0;
     width: 100%;
+    height: 50px;
+    background-color: #06062B !important;
+	border-color: #06062B;
+    padding: 5px 5px;
+    overflow: hidden;
 }
 
 .footer_tekst{
-    padding-top: 10px;
+    padding: 5px;
     float: left !important;
     color: white !important;
     max-height: 30px !important;
@@ -18,9 +23,14 @@ a{
 a:hover{
     color: #FCC304;
 }
+.socialmedia{
+    padding: 5px;
+}
 
 .socialmedia a{
+    
     display: inline-block;
+    float: right;
     width: 25px;
     height: 25px;
     margin: 2px;
