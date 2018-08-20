@@ -2,11 +2,18 @@ body{
     font-family: montserrat, sans-serif !important;
     overflow-x:hidden;
     background-color: white;
+    height: 100%;
+    margin: 0;
+
 
 }
 .jumbotron{
     background-color: white !important;
     padding: 0px !important;
+}
+
+.container{
+    min-height:100%;
 }
 
 .carousel-inner{
@@ -105,9 +112,6 @@ hr{
     
 }
 
-.form-control:hover{
-    
-}
 
 .form-control:focus {
   
@@ -338,7 +342,7 @@ h5{
     background-image: url(bg2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 625px;
+    height: 675px;
 }
 .article8{
     color: #ffffff;
